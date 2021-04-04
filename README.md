@@ -1,5 +1,7 @@
 # StiffnessMethod
 
+Program made for the subject "Structural Design" of the master's degree in Industrial Engineering at the UPM, to support the resolution of problems. 
+
 Estructuras.xlsx => 
 
 You must enter the structure in that file, numbering nodes and bars and taking into account which is the initial node and which is the final node. You can enter stiffnesses, sections and lengths. There are two types of nodes: articulated and rigid (AA, AR, RA, RR). 
@@ -17,4 +19,4 @@ The program. Just put the xlsx in the same file and run.
 
 It will calculate the direct stiffness method matrices in each bar, assemble them, pose the system, solve it, give you the displacements, draw you the deformation of the bar and calculate the forces (shear, normal and bending) in each bar, plus the reactions. 
 
-You can use the isolated functions. You can also leave the forces = 0 if you only want the system. The most important step is to introduce the 1 correctly in the displacements and define the system properly. 
+You can use the isolated functions. You can also leave the forces = 0 if you only want the system. The most important step is to introduce the 1 correctly in the displacements and define the system properly. And you can impose displacements (commented line after system). 
